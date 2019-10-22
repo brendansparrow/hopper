@@ -1,9 +1,18 @@
-# Starter Files
+# Hopperty
 
-> A collection of files to jump-start your next web project.
+> A minimal starting point for Eleventy sites, built using modern tools.
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Features
+
+- 11ty
+- Parcel
+- Sass/CSS
+- PostCSS
+- CSSNano
+- Autoprefixer
 
 ## What's inside?
 
@@ -21,17 +30,18 @@
 
 ## Getting started
 
-To use these files, either copy them directly or use [Degit](https://github.com/Rich-Harris/degit) to install them.
-
+To get started, clone this repo and have a dig around. To clone with a clean git history, use degit.
 
 ```sh
 npm install -g degit
-degit https://github.com/brendansparrow/starter-files
+degit https://github.com/brendansparrow/hopperty
+
+npm i
+npm run dev
 
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org/) installed.*
-
 
 
 ### License
