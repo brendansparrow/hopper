@@ -1,0 +1,27 @@
+// Global config for all design tokens and variables
+// @use 'settings';
+
+// Global mixins and functions
+// @use 'tools';
+
+// Global reset for more consistent cross-browser rendering
+// @use 'reset';
+
+// Opinionated styling for bare HTML elements
+// @use 'elements';
+
+// namespaced selectors for common design patterns
+// @use 'objects';
+
+// specific UI components
+// @use 'components';
+
+// utilities and helper classes to override other styles
+// @use 'overrides';
+
+$font-family-sans: system-ui, "HelveticaNeue",  Helvetica, sans-serif;
+
+body {
+  font-family: $font-family-sans;
+  line-height: 1.5;
+}

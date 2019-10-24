@@ -1,0 +1,51 @@
+// Elements
+// Styling for bare HTML elements (like h1, a, header, footer, etc).
+// These come with default styling from the browser so we must to redefine them here.
+
+body {
+  font-size: var(--text-base-size, 1em);
+  font-family: var(--font-primary, sans-serif);
+  color: var(--color-contrast-high, hsl(240, 4%, 20%));
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-contrast-higher, hsl(240, 8%, 12%));
+  line-height: var(--heading-line-height, 1.2);
+}
+
+// inline text
+a, .link {
+  color: var(--color-primary, hsl(220, 90%, 56%));
+  text-decoration: underline;
+}
+
+strong, .text-bold {
+  font-weight: bold;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+u, .text-underline {
+  text-decoration: underline;
+}
+
+// block elements
+
+blockquote {
+  padding-left: 1em;
+  border-left: 4px solid var(--color-contrast-low);
+}
+
+hr {
+  background: var(--color-contrast-low);
+  height: 1px;
+}
+
+// figures
+
+figcaption {
+  font-size: var(--text-sm);
+  color: var(--color-contrast-medium);
+}

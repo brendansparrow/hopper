@@ -1,0 +1,20 @@
+// Overrides
+// Utilities and helper classes with the ability to override predefined styles.
+
+// Visually hides any element meant for screenreaders only
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    left: -9999px;
+    top: -9999px;
+}
+
+// Make visible
+.is-visible {
+  display: initial !important;
+}
+
+// Hide
+.is-hidden {
+  display: none !important;
+}
