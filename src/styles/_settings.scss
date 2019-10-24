@@ -34,6 +34,24 @@ $breakpoints: (
 
 :root {
 
+  // body font size
+  --text-base-size: 1em;
+  
+  // type scale
+  --text-scale-ratio: 1.2;
+  --text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+
+  // line-height
+  --body-line-height: 1.4;
+  --heading-line-height: 1.2;
+
+  // Primary colour palette
   @include defineColorHSL(--color-primary-darker, 220, 90%, 36%);
   @include defineColorHSL(--color-primary-dark, 220, 90%, 46%);
   @include defineColorHSL(--color-primary, 220, 90%, 56%);
@@ -76,7 +94,7 @@ $breakpoints: (
   @include defineColorHSL(--color-contrast-medium, 240, 1%, 48%);
   @include defineColorHSL(--color-contrast-high, 240, 4%, 20%);
   @include defineColorHSL(--color-contrast-higher, 240, 8%, 12%);
-  
+
   // radius
   --radius-sm: calc(var(--radius, 0.25em)/2);
   --radius-md: var(--radius, 0.25em);

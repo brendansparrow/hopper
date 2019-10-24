@@ -4,6 +4,12 @@
   "description": "A minimal starting point for Eleventy sites.",
   "main": "src/scripts/index.js",
   "scripts": {
+    "start": "npm-run-all --parallel dev:*",
+    "build": "run-s prod:*",
+    "dev:eleventy": "eleventy --serve",
+    "dev:parcel": "parcel watch ./src/scripts/index.js --out-dir ./_site/assets",
+    "prod:eleventy": "eleventy",
+    "prod:parcel": "parcel build ./src/scripts/index.js --out-dir ./_site/assets",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/brendansparrow/hopperty/issues"
   },
-  "homepage": "https://github.com/brendansparrow/hopperty#readme"
+  "homepage": "https://github.com/brendansparrow/hopperty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4"
+  }
 }
