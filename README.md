@@ -36,8 +36,9 @@ To get started, clone this repo and have a dig around. To clone with a clean git
 npm install -g degit
 degit https://github.com/brendansparrow/hopperty
 
-npm i
-npm run dev
+npm install
+npm run start
+npm run build
 
 ```
 
