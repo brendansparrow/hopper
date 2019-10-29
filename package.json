@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
     "build": "run-s prod:*",
+    "clean": "rm -rf _site/*",
     "dev:eleventy": "eleventy --serve",
     "dev:parcel": "parcel watch ./src/scripts/index.js --out-dir ./_site/assets",
     "prod:eleventy": "eleventy",
