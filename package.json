@@ -1,5 +1,5 @@
 {
-  "name": "hopperty",
+  "name": "hopper",
   "version": "1.0.0",
   "description": "A minimal starting point for Eleventy sites.",
   "main": "src/scripts/index.js",

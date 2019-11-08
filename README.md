@@ -1,4 +1,4 @@
-# Hopperty
+# Hopper
 
 > A minimal starting point for Eleventy sites, built using modern tools.
 
@@ -42,9 +42,9 @@ To get started, clone this repo and run `npm install` inside the new directory. 
 
 ```sh
 npm install -g degit
-degit https://github.com/brendansparrow/hopperty
+degit https://github.com/brendansparrow/hopper
 
-cd hopperty
+cd hopper
 
 npm install
 ```
